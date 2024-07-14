@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sky {
+  width: 100%;
+  height: 340px;
+  background-color: #079bb0;
+}
+
+.grass {
+  width: 100%;
+  height: 240px;
+  background-color: #3f9b0b;
+}
+
+.road {
+  width: 100%;
+  height: 250px;
+  background-color: dimgray;
+  position: relative;
+}
+
+.lines {
+  box-sizing: border-box;
+  border: 5px dashed #fff;
+  height: 0px;
+  width: 100%;
+  position: absolute;
+  top: 100px;
+}
+
+.mario {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+}
