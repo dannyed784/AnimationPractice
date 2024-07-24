@@ -75,6 +75,13 @@ h1 {
 
 /* Borders Part-2 */
 
+.two {
+  width: 90%;
+  margin: 20px auto;
+  padding-bottom: 20px;
+  border-bottom: 3px solid gray;
+}
+
 #b6 {
   color: #fff;
   border: 20px solid greenyellow;

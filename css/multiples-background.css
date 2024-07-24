@@ -1,0 +1,38 @@
+#background {
+  padding: 25px;
+  border: 12px solid red;
+  width: 340px;
+  height: 280px;
+  /* bckeground:(root)(position)(dimention)no-repeat */
+  background: url("../img/cat.png") top 10px left 40px / 300px no-repeat;
+}
+
+#background-2 {
+  padding: 25px;
+  border: 12px solid red;
+  width: 340px;
+  height: 280px;
+  /* bckeground:(root)(position)(dimention)no-repeat */
+  background: url("../img/Balloons.png") top / 100px no-repeat,
+    url("../img/balloon-2.png") bottom/120px no-repeat;
+}
+
+#background-3 {
+  padding: 25px;
+  border: 12px solid red;
+  width: 340px;
+  height: 280px;
+  background: url(../img/dish.png) bottom 10px left 100px/200px no-repeat,
+    url(../img/kitchen-2.png) top/400px no-repeat,
+    url(../img/table.png) bottom/390px no-repeat;
+}
+
+#background-4 {
+  padding: 25px;
+  border: 12px solid red;
+  width: 340px;
+  height: 280px;
+  font-size: 24px;
+  background-color: mediumaquamarine;
+  background-clip: content-box ;
+}
