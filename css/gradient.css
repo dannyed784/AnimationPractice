@@ -1,0 +1,47 @@
+#gradient {
+  border: 2px solid #000;
+  width: 480px;
+  height: 480px;
+  background: linear-gradient(145deg, yellow 20%, blue, red);
+  display: none;
+}
+
+#gradient-2 {
+  border: 2px solid #000;
+  width: 480px;
+  height: 480px;
+  background: repeating-linear-gradient(yellow, blue, red 10%);
+  display: none;
+}
+
+#gradient-3 {
+  border: 2px solid #000;
+  width: 480px;
+  height: 480px;
+  background: radial-gradient(yellow 23%, blue, red 60%);
+  display: none;
+}
+
+#gradient-4 {
+  border: 2px solid #000;
+  width: 480px;
+  height: 480px;
+  background: radial-gradient(circle at top right, yellow, orange);
+  display: none;
+}
+
+#gradient-5 {
+  border: 2px solid #000;
+  width: 480px;
+  height: 480px;
+  background: repeating-radial-gradient(circle, blue, cyan 15%);
+}
+
+#gradient-6 {
+    border: 2px solid #000;
+    width: 480px;
+    height: 480px;
+    background: repeating-linear-gradient(
+        45deg, yellow,yellow 10px,red 10px,red
+    20px);
+  }
