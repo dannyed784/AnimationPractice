@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-title {
+  width: 90%;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  padding: 20px;
+  background-color: #ddd567;
+}
+
+.efect-1 {
+  font-size: 75px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  /* shadow-horizontal position(px) - shadow-vertical position(px) -shadow-distance- shadow-color , extra color*/
+  text-shadow: 1px 1px 5px black, 0 0 22px red;
+}
+
+.efect-2 {
+  width: 400px;
+  height: 150px;
+  font-size: 60px;
+  color: rgb(0, 139, 74);
+  background-color: coral;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  text-shadow: black 3px 3px 1px;
+  box-shadow: 10px 20px 20px #9c1503;
+}
+
+.efect-3 {
+  width: 400px;
+  height: 150px;
+  font-size: 60px;
+  color: rgb(0, 139, 74);
+  background-color: coral;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  text-shadow: black 3px 3px 1px;
+  /* inset: give us an efect the element is underground */
+  box-shadow: 3px 3px 3px 5px #9c1503 inset;
+}
+
+/* Card */
+.card {
+  width: 250px;
+  margin-top:20px;
+  text-align: center;
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.3);
+}
+
+.number{
+    background-color: darkred;
+    color:#fff;
+    padding:10px;
+    font-size:50px;
+}
+
+.title{
+    padding:5px;
+    font-size:32px;
+}
