@@ -1,0 +1,33 @@
+body{
+    background-color: bisque;
+}
+
+#text {
+  width: 400px;
+  font-size: 40px;
+  border: 3px solid red;
+  writing-mode: vertical-lr;
+}
+
+#text-2 {
+  width: 400px;
+  font-size: 40px;
+  margin-top: 20px;
+  border: 3px solid red;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#text-3{
+    width:200px;
+    border:3px solid brown;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-size:24px;
+    padding: 20px;
+    margin:0;
+    background-color: white;
+    resize: horizontal;
+}
