@@ -1,0 +1,58 @@
+/*  TRANSLATE*/
+.container {
+  width: 180px;
+  height: 180px;
+  background: linear-gradient(orange, red);
+  border: 7px solid darkred;
+  transform: translateX(400px);
+  display: none;
+}
+/* ROTATE */
+.container-2 {
+  width: 180px;
+  height: 180px;
+  margin-top: 80px;
+  background: linear-gradient(orange, red);
+  border: 7px solid darkred;
+  transform: rotate(45deg);
+  display:none;
+}
+
+/* SKEW */
+.container-3 {
+  width: 180px;
+  height: 180px;
+  margin-top: 80px;
+  background: linear-gradient(orange, red);
+  border: 7px solid darkred;
+  transform: skew(45deg);
+  display: none;
+}
+/* SCALE */
+.container-4 {
+  width: 180px;
+  height: 180px;
+  margin-top: 80px;
+  background: linear-gradient(orange, red);
+  border: 7px solid darkred;
+  transform: scaleX(2);
+}
+
+.container-5{
+    background: linear-gradient(red,orange);
+    margin-top:60px;
+    width:200px;
+    height: 200px;
+    animation:skew 3s infinite;
+    transform: skew(20deg);
+    animation-direction: alternate;
+}
+
+@keyframes skew{
+    0%{
+        transform:skew(20deg,20deg)
+    }
+    100%{
+        transform: skew(20deg,-20deg);
+    }
+}
