@@ -38,6 +38,7 @@
   transform: scaleX(2);
 }
 
+/* SKEW */
 .container-5{
     background: linear-gradient(red,orange);
     margin-top:60px;
@@ -46,7 +47,7 @@
     animation:skew 3s infinite;
     transform: skew(20deg);
     animation-direction: alternate;
-}
+}    
 
 @keyframes skew{
     0%{
